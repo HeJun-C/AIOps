@@ -49,7 +49,7 @@ def process_message(message):
     # Check for Python keywords in the message
     for concept, explanation in PYTHON_CONCEPTS.items():
         if concept in message:
-            return f"Let me teach you about {concept}: {explanation}"
+            return f"Let me teach you about {concept}: {explanation}. Hope you like it lol!!"
     
     # Basic conversation patterns
     if "hello" in message or "hi" in message:
